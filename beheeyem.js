@@ -123,7 +123,7 @@ beheeyem.on("message", msg => { // Fires when a message is sent that can be dete
 });
 
 
-beheeyem.login(config.token);
+beheeyem.login(process.env.BOT_TOKEN);
 
 function capitalizeFirstLetter(string) { // Simple function to capitalize the first letter in a string.
     return string.charAt(0).toUpperCase() + string.slice(1);
