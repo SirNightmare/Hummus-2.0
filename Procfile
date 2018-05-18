@@ -1,1 +1,1 @@
-Worker: beheeyem.js
+Worker: node beheeyem.js
