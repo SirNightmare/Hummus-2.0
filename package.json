@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "colors": "^1.1.2",
+    "convert-units": "^2.3.4",
+    "did-you-mean": "0.0.1",
+    "discord.js": "^11.3.2",
+    "image-size": "^0.6.2",
+    "jshint": "^2.9.5",
+    "jsonfile": "^4.0.0",
+    "markovchain-generate": "^1.0.11",
+    "minimist": "^1.2.0",
+    "moment": "^2.20.1",
+    "request": "^2.83.0",
+    "require-from-url": "^3.1.2",
+    "require-reload": "^0.2.2",
+    "glitchup": "^1.2.0",
+    "nodemon": "^1.17.4"
+  },
+  "name": "beheeyem",
+  "version": "2.2.4",
+  "description": "Pokemon-based Discord Bot.",
+  "main": "node beheeyem.js",
+  "author": "110Percent",
+  "license": "GNU AGPL",
+  "scripts": {
+    "start": "nodemon beheeyem.js",
+    "test": "jshint beheeyem.js; jshint commands"
+  }
+}
