@@ -13,7 +13,7 @@ exports.action = (msg, args, beheeyem) => {
     .setColor("RANDOM")
     .setTitle("Searching....")
     .setImage("https://media.tenor.com/images/68418bb6d6155d587f94e794c9b07314/tenor.gif")
-    message.channel.send(embed)
+    msg.channel.send(embed)
     let targetUser;
 
     targetUser = msg.guild.members.get(msg.author.id);
