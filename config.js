@@ -1,5 +1,5 @@
 module.exports = {
     token: 'NOO',
-    prefix: 'L~',
+    prefix: '&',
     ownerID: '360908660727087107'
 };
